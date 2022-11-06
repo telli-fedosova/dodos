@@ -11,7 +11,7 @@ def test_output():
     ]
 
     expected = (
-        "|                Summary                |    Date    |\n"
+        "| Summary                               | Date       |\n"
         "| Write output.to_string implementation | 2022-06-06 |\n"
         "| Create more dodos                     | 2022-06-07 |\n"
     )
