@@ -1,4 +1,3 @@
-import datetime
 from typing import List
 from dodos.types import Dodo
 
