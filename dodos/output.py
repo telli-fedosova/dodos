@@ -12,13 +12,3 @@ def get_table(dodos: List[Dodo]) -> str:
         lines.append(f"| {d.summary} {' ' * padding_length}| {d.date} |")
 
     return "\n".join(lines) + "\n"
-
-
-print(
-    get_table(
-        dodos=[
-            Dodo("Write output.to_string implementation", datetime.date(2022, 6, 6)),
-            Dodo("Create more dodos", datetime.date(2022, 6, 7)),
-        ]
-    )
-)
